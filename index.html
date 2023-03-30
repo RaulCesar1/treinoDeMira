@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Treinamento de Mira</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+       <h1 id='h1-pontos'>Acertos: <span id="pontuacao-display">0</span></h1>
+       <h1 id='h1-dificuldade'>Dificuldade: <span id='dificuldade-display'>Médio</span></h1>
+       <div>
+           <button class='btn-dificuldade' onclick="dificuldade(1)">Fácil</button>
+           <button class='btn-dificuldade' onclick="dificuldade(2)">Médio</button>
+           <button class='btn-dificuldade' onclick="dificuldade(3)">Difícil</button>
+       </div>
+    </nav>
+        
+    <div class="principal">
+        <div id="quadrado" onmouseover="handleMove()"></div>
+    </div>
+</body>
+
+</html>

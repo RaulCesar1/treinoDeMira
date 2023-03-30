@@ -1,0 +1,39 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    user-select: none;
+    margin: 0;
+}
+
+span {
+    font-size: 30px;
+}
+
+#quadrado {
+    background-color: #000000;
+    height: 100px;
+    width: 100px;
+}
+
+.navbar {
+    display: flex;
+    color: white;
+    background-color: gray;
+    justify-content: space-between;
+}
+
+#h1-pontos {
+    margin-left: 10px;
+}
+
+#h1-dificuldade {
+    background-color: orange
+}
+
+.btn-dificuldade {
+    height: 100%;
+    width: 200px;
+    font-size: 30px;
+}
