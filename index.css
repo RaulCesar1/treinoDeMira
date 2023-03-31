@@ -13,6 +13,7 @@ span {
 
 #quadrado {
     background-color: #000000;
+    border-radius: 100%;
     height: 100px;
     width: 100px;
 }
@@ -29,7 +30,7 @@ span {
 }
 
 #h1-dificuldade {
-    background-color: orange
+    background-color: orange;
 }
 
 .btn-dificuldade {
