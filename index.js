@@ -5,14 +5,8 @@ window.onload = () => {
     localStorage.setItem('pontos', 0)
 }
 
-/*
-Fácil -> 150x150 px
-Médio -> 100x100 px
-Difícil -> 50x50 px
-*/
-
 function debugarJogo() {
-    setInterval(() => {handleMove()}, 5)
+    setInterval(() => {handleMove()}, 250)
 }
 
 function handleMove() {   
@@ -20,8 +14,8 @@ function handleMove() {
     
     quadrado.style.position = 'absolute'
     
-    quadrado.style.left = `${Math.floor(Math.random() * 1800)}px`
-    quadrado.style.top = `${Math.floor(Math.random() * 840)}px`
+    quadrado.style.marginLeft = `${Math.floor(Math.random() * (95 - 1) + 1)}%`
+    quadrado.style.marginTop = `${Math.floor(Math.random() * (45 - 1) + 1)}%`
     
     localStorage.setItem('pontos', Number(localStorage.getItem('pontos'))+1)
     
